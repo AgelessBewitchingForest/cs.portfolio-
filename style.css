@@ -1,1 +1,37 @@
+body {
+  background-color: indianred;
+  text-align: center;
+  color: dodgerblue;
+}
 
+h1 {
+    color: saddlebrown;
+    font-family: sans-serif;
+  margin: 10px;
+  border-color: aqua;
+  border-width: 10px;
+  border-style: dashed;
+  border-radius: 10px;
+}
+
+h2 {
+font-family: sans-serif;
+  color: saddlebrown;
+  background-color: darkcyan;
+}
+
+img {
+  float: righ;
+  width: 250px;
+  margin: 10px;
+  border-color: aqua;
+border-width: 10px;
+  border-style: dashed;
+  border-radius: 5px;
+}
+
+p {
+    text-align: left;
+    font-family: fantasy;
+    font-size: 14px;
+}
