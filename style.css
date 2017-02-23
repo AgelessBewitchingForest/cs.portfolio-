@@ -5,11 +5,11 @@ body {
 }
 
 h1 {
+    text-align: center;
     color: saddlebrown;
     font-family: sans-serif;
   font-size: 500px;
   margin: 10px;
-  text-align: center;
 }
 
 h2 {
