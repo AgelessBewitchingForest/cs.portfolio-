@@ -19,7 +19,9 @@ font-family: sans-serif;
 }
 
 img {
-  margin: 10px;
+  margin: auto;
+  display: block;
+  float: center;
 }
 
 p {
