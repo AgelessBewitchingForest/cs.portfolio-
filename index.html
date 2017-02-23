@@ -4,12 +4,43 @@
   
   <link rel="stylesheet" href="style.css">
   <style>
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
 table, th, td {
     border: 1px solid black;
 }
 </style>
     <body>
-<table style="width:100%">
+ <ul>
+  <li><a href="https://agelessbewitchingforest.github.io/cs.portfolio-/">Home</a></li>
+    <li><a href="navbartest.html">nav test</a></li>
+</ul>
+      <table style="width:100%">
   <tr>
     <td style="width: 48%"><img src="Turtle-Goal.png" width="95%"></td>
     <td style="width: 52%"><img src="giphy.gif" width="95%"></td>
@@ -23,9 +54,6 @@ table, th, td {
       <li><a href="https://m.youtube.com/watch?v=6E5m_XtCX3c">Ocean Man Lyrics</a></li>
 <audio control autoplay>
   <source src="Ocean Man Lyrics.mp3" type=audio/mpeg> </audio>
-  <ul>
-  <li><a href="https://agelessbewitchingforest.github.io/cs.portfolio-/">Home</a></li>
-    <li><a href="navbartest.html">nav test</a></li>
-</ul>
+ 
     </body>
 </html>
